@@ -1,6 +1,16 @@
 .body-bg {
   background: #222D32;
 }
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
 .panel .panel-title {
   height: 40px;
   line-height: 40px;
@@ -9,4 +19,101 @@
 }
 .mt_150 {
   margin-top: 150px;
+}
+/* 侧边栏 */
+.lt-aside {
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 100%;
+  background: #222D32;
+  position: fixed;
+  z-index: 999;
+  transition: all 1s;
+  /* 用户 */
+  /* 导航 */
+}
+.lt-aside .brand {
+  width: 180px;
+  height: 50px;
+  background: #367FA9;
+  text-align: center;
+}
+.lt-aside .brand a {
+  display: block;
+  color: #fff;
+  line-height: 50px;
+  font-size: 22px;
+}
+.lt-aside .user {
+  height: 180px;
+  padding-top: 30px;
+}
+.lt-aside .user img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.lt-aside .user p {
+  font-size: 18px;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.lt-aside .nav a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  padding-left: 40px;
+  border-left: 3px solid transparent;
+}
+.lt-aside .nav .child a {
+  padding-left: 60px;
+}
+.lt-aside.hidemenu {
+  left: -180px;
+}
+/* 右侧主体布局 */
+.lt-main {
+  height: 2000px;
+  background: pink;
+  padding-left: 180px;
+  transition: all 1s;
+  padding-top: 50px;
+}
+.lt-toptar {
+  width: 100%;
+  height: 50px;
+  background: #3C8DBC;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 180px;
+  text-align: center;
+  transition: all 1s;
+}
+.lt-toptar .icon-menu,
+.lt-toptar .icon-logout {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+}
+.lt-toptar.hidemenu {
+  padding-left: 0px;
+}
+.lt-main.hidemenu {
+  padding-left: 0px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.modal .modal-body .color {
+  color: red;
 }
