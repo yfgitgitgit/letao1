@@ -7,6 +7,9 @@ a:hover,
 a:active {
   text-decoration: none;
 }
+.mb_20 {
+  margin-bottom: 20px;
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -122,8 +125,8 @@ a:active {
   width: 45%;
   height: 400px;
 }
-.table .table-bordered th,
-.table .table-bordered td {
+.table.table-bordered th,
+.table.table-bordered td {
   text-align: center;
   /* 表格垂直居中 */
   vertical-align: middle;
