@@ -62,7 +62,7 @@ $(function(){
       // 获取a的文本
       var txt = $(this).text();
       // 设置给 dropdownText
-      $('.dropdownText').text(txt);
+      $('#dropdownText').text(txt);
       // 获取选中的 id
       var id = $(this).data("id");
       // 设置给 input
