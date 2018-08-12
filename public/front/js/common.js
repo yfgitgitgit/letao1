@@ -44,4 +44,4 @@ $(function() {
       });
       return obj[name];
     }
-    console.log(getSearch("desc"));
+    // console.log(getSearch("desc"));
