@@ -65,6 +65,7 @@ img {
 }
 
 
+
 .lt_footer {
   position: absolute;
   left: 0;
@@ -98,13 +99,6 @@ img {
   color: orange;
 }
 
-
-
-.lt_main {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
 
 
 .lt_main {
