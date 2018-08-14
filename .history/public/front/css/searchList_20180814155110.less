@@ -1,0 +1,63 @@
+.lt_main{
+  width:100%;
+  height:100%;
+  // background:pink;
+  position: relative;
+}
+.lt_search{
+  position: relative;
+  padding:10px;
+  .search_input{
+    height:34px;
+    font-size:12px;
+    margin: 0;
+    border:1px solid blue;
+  }
+  .search_btn{
+    position: absolute;
+    right:10px;
+    top:10px;
+    border-radius: 0 5px 5px 0;
+  }
+}
+/* 排序 */
+.lt_sort{
+  height:30px;
+  line-height:30px;
+  background:#eee;
+  font-size:12px;
+  a{
+    float: left;
+    width:25%;
+    color: #666;
+    text-align:center;
+  }
+  a.current{
+    color: #FF8C00;
+  }
+}
+/* 产品 */
+// .lt_product{
+//   position: relative;
+.loading{
+  width:50px;
+  height:50px;
+  border:4px solid #069;
+  position: absolute;
+  left:50%;
+  top:0;
+  transform: translateX(-50%);
+   /* 使用动画: 动画名称 动画时间 动画次数 */
+  /* infinite 无限次 */
+  animation: rotate 1s infinite ease-in-out;
+  }
+  // 定义动画
+  @keyframes rotate {
+    from{
+      transform: translateX(-50%) rotate(0deg);
+    }
+    to{
+      transform: translateX(-50%)rotate(360deg);
+    }
+  }
+}
