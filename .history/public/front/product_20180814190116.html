@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- 引入字体图标库的css -->
+  <link rel="stylesheet" href="./lib/fa/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./lib/mui/css/mui.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/product.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <!-- 全部容器 -->
+  <div class="lt_container">
+    <!-- 乐淘头部 -->
+    <div class="lt_header">
+      <!-- 点击 a 标签, 返回上一页 javascript:history.go(-1); -->
+      <a href="javascript:history.go(-1);" class="icon_left">
+        <i class="mui-icon mui-icon-back"></i>
+      </a>
+      <h3>商品详情</h3>
+      <!-- 页面重新刷新 -->
+      <!-- location.reload() -->
+      <a href="javascript:location.reload();" class="icon_right">
+        <i class="mui-icon mui-icon-reload"></i>
+      </a>
+    </div>
+
+    <!-- 乐淘主体 -->
+    <div class="lt_main">
+      <div class="mui-scroll-wrapper">
+        <div class="mui-scroll">
+          <!-- 挖个巨坑 -->
+          <!-- 轮播图 -->
+          <div class="mui-slider">
+
+            <!-- 图片区域 -->
+            <div class="mui-slider-group mui-slider-loop">
+              <!-- 添加假图 -->
+              <div class="mui-slider-item mui-slider-item-duplicate">
+                <a href="#">
+                  <img src="./images/banner6.png" />
+                </a>
+              </div>
+
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="./images/banner1.png" />
+                </a>
+              </div>
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="./images/banner2.png" />
+                </a>
+              </div>
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="./images/banner3.png" />
+                </a>
+              </div>
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="./images/banner4.png" />
+                </a>
+              </div>
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="./images/banner5.png" />
+                </a>
+              </div>
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="./images/banner6.png" />
+                </a>
+              </div>
+
+              <!-- 添加假图 -->
+              <div class="mui-slider-item mui-slider-item-duplicate">
+                <a href="#">
+                  <img src="./images/banner1.png" />
+                </a>
+              </div>
+            </div>
+
+            <!-- 小圆点结构 -->
+            <div class="mui-slider-indicator">
+              <div class="mui-indicator mui-active"></div>
+              <div class="mui-indicator"></div>
+              <div class="mui-indicator"></div>
+              <div class="mui-indicator"></div>
+              <div class="mui-indicator"></div>
+              <div class="mui-indicator"></div>
+            </div>
+
+          </div>
+          <!-- 产品表题 -->
+          <div class="lt_pro_name">
+            <strong>匡威三星标1970s converse复刻 142334c 144757c三星标黑色高帮</strong>
+          </div>
+          <!-- 产品价格 -->
+          <div class="lt_price">
+            价格:
+            <span>¥42345.1</span>
+            <span>¥888.1</span>
+          </div>
+          <!-- 尺码 -->
+          <div class="lt_size">
+            尺码:
+            <span>40</span>
+            <span>41</span>
+            <span>42</span>
+            <span>43</span>
+            <span>44</span>
+            <span>45</span>
+            <span>46</span>
+            <span>47</span>
+            <span>48</span>
+            <span>49</span>
+          </div>
+          <!-- 数量 -->
+          <div class="lt_num">
+            <div class="mui-numbox" data-numbox-min></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+
+  </div>
+  <script src="./lib/zepto/zepto.min.js"></script>
+  <script src="./lib/mui/js/mui.js"></script>
+  <script src="./lib/artTemplate/template-web.js"></script>
+  <script src="./js/common.js"></script>
+  <script src="./js/product.js"></script>
+</body>
+
+</html>

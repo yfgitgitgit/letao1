@@ -58,10 +58,8 @@
             <!-- </div> -->
           </div>
         </div>
-        
-      </div> 
+      </div>
     </div>
-
     <!-- 乐淘底部 -->
     <div class="lt_footer">
         <ul>
@@ -76,7 +74,7 @@
     <ul>
       {{ each data v i }}
       <li class="lt_product_item">
-        <a href="product.html?productId={{ v.id }}">
+        <a href="product.html?productId{{ v.id }}">
           <img src="{{ v.pic[0].picAddr }}" alt="">
           <p class="info mui-ellipsis-2">{{ v.proName }} </p>
           <p>
